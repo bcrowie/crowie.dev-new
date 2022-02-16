@@ -1,0 +1,7 @@
+@import "./variables.scss";
+
+.route-container {
+  background-color: $background-color;
+  width: $route-container-width;
+  margin: auto;
+}

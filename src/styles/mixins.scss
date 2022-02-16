@@ -1,0 +1,16 @@
+@import "./variables.scss";
+
+@mixin social-icon($pl, $pr) {
+  height: $social-icon-size;
+  width: $social-icon-size;
+  margin: 0 2;
+  transition-duration: 200ms;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    height: $social-icon-size-hover;
+    width: $social-icon-size-hover;
+    margin: 0 $pl 0 $pr;
+    color: coral;
+  }
+}
