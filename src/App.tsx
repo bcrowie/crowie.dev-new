@@ -9,14 +9,18 @@ import Contact from './screens/Contact'
 import Home from './screens/Home'
 import Showcase from './screens/Showcase'
 
+const handleScroll: EventListener = ():void => {
+    return
+}
+
 const App: React.FC = () => {
   return (
     <Router>
-      <Header/>
+      <Header  handleScroll={handleScroll}/>
       <Routes>
-        <Route path={Paths.Main} element={<Home/>} />
-        <Route path={Paths.Contact} element={<Contact/>} />
-        <Route path={Paths.Showcase} element={<Showcase/>} />
+          <Route path={Paths.Main} element={<Home/>} />
+          <Route path={Paths.Contact} element={<Contact/>} />
+          <Route path={Paths.Showcase} element={<Showcase/>} />
       </Routes>
     </Router>
   );

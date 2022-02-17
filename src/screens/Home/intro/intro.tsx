@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import './intro.scss'
 
-const Intro: React.FC = () => {
+const Intro: React.FC = (): JSX.Element => {
     return (
         <div className="intro">
                 <p>This is the intro</p>

@@ -7,13 +7,17 @@ import { Colors } from '../../constants/strings'
 import Github from "../social/github/github"
 import LinkedIn from '../social/linkedin/linkedin'
 
+interface Header {
+    handleScroll: EventListener
+}
+
 const collapseHeader = ():void => {
     console.log("void")
 }
 
-const Header: React.FC = () => {
+const Header: React.FC = (props): JSX.Element => {
     const [logoHovered, setLogoHovered] = useState(Colors.DarkBrown)
-    const [isCollapsed , setCollapsed] = useState(false);
+    const [isScrolled, setScrolled] = useState();
 
     return (
         <div className="header">

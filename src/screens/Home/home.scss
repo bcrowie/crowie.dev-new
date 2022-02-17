@@ -3,13 +3,16 @@
 .home {
   background-color: $background-color;
   width: auto;
-  height: auto;
+  height: 100%;
 
   .home-main {
     display: flex;
     flex-direction: row;
     width: 50%;
     justify-content: center;
+    align-items: center;
+    height: inherit;
+
     .main-container {
       width: 50%;
       justify-content: center;

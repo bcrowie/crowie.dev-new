@@ -5,7 +5,7 @@ import { Colors, Logos } from '../../../constants/strings' // Constants
 import { ReactComponent as GithubLogo } from '../../../images/github-square-brands.svg';
 import './github.scss'
 
-const Github: React.FC = () => {
+const Github: React.FC = (): JSX.Element => {
     const [hovered, setHovered] = useState(Colors.DarkBrown)
 
     return(

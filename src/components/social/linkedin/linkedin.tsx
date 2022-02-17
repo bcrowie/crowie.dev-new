@@ -5,7 +5,7 @@ import { Colors, Logos } from '../../../constants/strings' // Constants
 import { ReactComponent as LinkedInLogo } from '../../../images/linkedin-brands.svg';
 import './linkedin.scss'
 
-const LinkedIn: React.FC = () => {
+const LinkedIn: React.FC = (): JSX.Element => {
     const [hovered, setHovered] = useState(Colors.DarkBrown)
 
     return(

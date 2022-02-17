@@ -5,7 +5,7 @@ import Bulletpoints from './bulletpoints/bulletpoints'
 import Intro from './intro/intro'
 import Profile from './profile/profile'
 
-const Home: React.FC = () => {
+const Home: React.FC = (): JSX.Element => {
     return (
         <div className='home'>
             <div className="home-main route-container">
