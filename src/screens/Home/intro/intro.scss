@@ -1,8 +1,9 @@
 @import "../../../styles/general.scss";
 
 .intro {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 2;
   padding: 2em 0;
+
+  p {
+    padding: 1em 0;
+  }
 }

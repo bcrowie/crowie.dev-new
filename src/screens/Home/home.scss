@@ -4,4 +4,15 @@
   background-color: $background-color;
   width: auto;
   height: auto;
+
+  .home-main {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    .main-container {
+      width: 50%;
+      justify-content: center;
+    }
+  }
 }
