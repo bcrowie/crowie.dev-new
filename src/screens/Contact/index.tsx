@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Contact: React.FC = () => {
+const Contact: React.FC = (): JSX.Element => {
     return (
         <div className='contact'>
             <div className="contact-main route-container">

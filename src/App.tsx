@@ -13,7 +13,7 @@ const handleScroll: EventListener = ():void => {
     return
 }
 
-const App: React.FC = () => {
+const App: React.FC = (): JSX.Element => {
   return (
     <Router>
       <Header  handleScroll={handleScroll}/>

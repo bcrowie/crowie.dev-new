@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Profile: React.FC = () => {
+const Profile: React.FC = (): JSX.Element => {
     return (
         <div className="profile">
             <p>Brenden Crowie</p>
